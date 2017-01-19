@@ -1,6 +1,6 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////
 //                                                                                              //
-//                          UbuntuDARK theme v1.0 for Telegram Desktop.                         //
+//                          UbuntuDARK theme v1.1 for Telegram Desktop.                         //
 //                                                                                              //
 //                                                                                              //
 //        Source code: https://github.com/michaelkisiel/ubuntu-dark-telegram-theme              //
@@ -92,8 +92,8 @@ menuSubmenuArrowFg: COLOR_GRAY;                    // (unknown)
 menuFgDisabled: COLOR_GGRAY;
 menuSeparatorFg: COLOR_GGRAY;                   //  seperator line in right click pop-up window in historyComposeArea
 
-scrollBarBg: #ee8d6653;                         // Scrollbar (chats list) current position
-scrollBarBgOver: #ee8d667a;                     // Mouse over scrollbar (chats list) current position
+scrollBarBg: #f2f1f053;                         // Scrollbar (chats list) current position
+scrollBarBgOver: #f2f1f07a;                     // Mouse over scrollbar (chats list) current position
 scrollBg: #0000001a;                            // Scrollbar (chats list) background
 scrollBgOver: #0000002c;                        // Mouse over scrollbar (chats list) background
 
@@ -290,10 +290,10 @@ historyPeer8NameFg: #ce671b;                    // One more orange?!
 historyPeer8UserpicBg: #faa774;
 historyPeerUserpicFg: COLOR_WHITE;
 
-historyScrollBarBg: scrollBarBg;                // Scrollbar (history view) background
-historyScrollBarBgOver: scrollBarBgOver;        // Scrollbar (history view) background (hover)
-historyScrollBg: scrollBg;                      // Scrollbar (history view) current position background
-historyScrollBgOver: scrollBgOver;              // Scrollbar (history view) current position background (hover)
+historyScrollBarBg: #ee8d6653;                // Scrollbar (history view) background
+historyScrollBarBgOver: #ee8d667a;            // Scrollbar (history view) background (hover)
+historyScrollBg: #0000001a;                   // Scrollbar (history view) current position background
+historyScrollBgOver: #0000002c;               // Scrollbar (history view) current position background (hover)
 
 msgInBg: COLOR_LGRAY;                           // Incoming message background
 msgInBgSelected: COLOR_GGRAY;                    // Selected incoming message background

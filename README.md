@@ -1,5 +1,5 @@
 # Ubuntu Dark Theme for Telegram Desktop
-#### Version 1.0
+#### Version 1.1
 A telegram desktop theme in stylish ubuntu design pattern. It fits perfectly into your Ambiance theming!
 
 ### Install
