@@ -1,6 +1,6 @@
 //////////////////////////////////////////////////////////////////////////////////////////////////
 //                                                                                              //
-//                          UbuntuDARK theme v1.1 for Telegram Desktop.                         //
+//                          UbuntuDARK theme v1.21 for Telegram Desktop.                         //
 //                                                                                              //
 //                                                                                              //
 //        Source code: https://github.com/michaelkisiel/ubuntu-dark-telegram-theme              //
@@ -46,7 +46,7 @@ windowBgActive: COLOR_GREEN_LIGHT;              // Active button background (+ c
 windowFgActive: COLOR_WHITE;                     // Active selected chats list text / button text + checkboxes' "ticks" color
 windowActiveTextFg: COLOR_ORANGE;               // Online status, links, recording cancel, etc
 windowShadowFg: COLOR_DARK;                     // Window border shadows
-windowShadowFgFallback: COLOR_LGRAY;            // Notification border
+windowShadowFgFallback: COLOR_DARK;            // Notification border
 
 shadowFg: #00000018;                            // Internal border shadows
 slideFadeOutBg: #0000003c;
@@ -84,12 +84,12 @@ outlineButtonBgRipple: COLOR_IRON;
 
 menuBg: COLOR_LGRAY;                             //Background color of top right menu when clicked on three dots
 menuBgOver: COLOR_IRON;                          //Background color of keyboard buttons
-menuBgRipple: COLOR_RED;
+menuBgRipple: COLOR_RED;                        //
 menuIconFg: COLOR_GGRAY;                        // Icons color (left menu button, scroll down, paperclip..)
-menuIconFgOver: COLOR_APRICOT;                    // Icons color on hover (left menu button, scroll down, paperclip..)
+menuIconFgOver: COLOR_APRICOT;                  // Icons color on hover (left menu button, scroll down, paperclip..)
 
-menuSubmenuArrowFg: COLOR_GRAY;                    // (unknown)
-menuFgDisabled: COLOR_GGRAY;
+menuSubmenuArrowFg: COLOR_GRAY;                 // (unknown)
+menuFgDisabled: COLOR_GGRAY;                    // diabled menuentries in right click pop-up window in historyComposeArea
 menuSeparatorFg: COLOR_GGRAY;                   //  seperator line in right click pop-up window in historyComposeArea
 
 scrollBarBg: #f2f1f053;                         // Scrollbar (chats list) current position
@@ -106,7 +106,7 @@ radialBg: COLOR_GRAY;                          //setting color for this loading 
 placeholderFg: COLOR_IRON;                     // Inactive input box placeholder text
 placeholderFgActive: COLOR_GRAY;               // Active input box placeholder text
 inputBorderFg: COLOR_LGRAY;
-filterInputBorderFg: COLOR_APRICOT;      // Search field border
+filterInputBorderFg: COLOR_APRICOT;             // Search field border
 filterInputInactiveBg: COLOR_GRAY;             // Search field background color
 checkboxFg: COLOR_GGRAY;
 
@@ -183,7 +183,7 @@ introCoverPlaneTop: COLOR_WHITE;
 
 ////////////////////////////////////////////////////////////////////////////////////////77
 
-dialogsMenuIconFg: COLOR_IRON;
+dialogsMenuIconFg: COLOR_IRON;                //Left Menu icon (hamburger menu)
 dialogsMenuIconFgOver: COLOR_APRICOT;
 
 dialogsBg: COLOR_DARK;                         // Chats list background color
@@ -194,7 +194,7 @@ dialogsTextFg: COLOR_IRON;                      // Chats list message preview te
 dialogsTextFgService: COLOR_ORANGE;            // Chats list message preview sender name
 dialogsDraftFg: COLOR_RED;                      // "Draft" word
 dialogsVerifiedIconBg: COLOR_IRON;
-dialogsVerifiedIconFg: COLOR_WHITE;
+dialogsVerifiedIconFg: COLOR_DARK;
 dialogsSendingIconFg: COLOR_RED;
 dialogsSentIconFg: COLOR_GREEN_LIGHT;
 dialogsUnreadBg: COLOR_GREEN_LIGHT;                     // Chats list unread counter background
@@ -296,7 +296,7 @@ historyScrollBg: #0000001a;                   // Scrollbar (history view) curren
 historyScrollBgOver: #0000002c;               // Scrollbar (history view) current position background (hover)
 
 msgInBg: COLOR_LGRAY;                           // Incoming message background
-msgInBgSelected: COLOR_GGRAY;                    // Selected incoming message background
+msgInBgSelected: COLOR_GGRAY;                   // Selected incoming message background
 msgOutBg: COLOR_LAPRICOT;                       // Outgoing message background
 msgOutBgSelected: COLOR_APRICOT;                // Selected outgoing message background
 msgSelectOverlay: #2223239b;                    // Selected media (images...) overlay
@@ -313,8 +313,8 @@ msgInDateFg: COLOR_GGRAY;                       // Incoming message date text
 msgInDateFgSelected: COLOR_WHITE;
 msgOutDateFg: COLOR_GGRAY;                      // Outgoing message date text
 msgOutDateFgSelected: COLOR_WHITE;
-msgServiceFg: COLOR_WHITE;                      // Service messages TEXT color (join, left, actual date)
-msgServiceBg: COLOR_GRAY;                       // Service messages BACKGROUND color (join, left, actual date)
+msgServiceFg: COLOR_WHITE;                      // Service messages TEXT color (actual date)
+msgServiceBg: COLOR_GRAY;                       // Service messages BACKGROUND color (actual date)
 msgServiceBgSelected: COLOR_WHITE;
 msgInReplyBarColor: COLOR_APRICOT_ALPHA;        // Incoming msg: vertical bar next to reply
 msgInReplyBarSelColor: COLOR_WHITE;             // Incoming msg: vertical bar next to reply (selected)
@@ -390,8 +390,8 @@ youtubePlayIconBg: #e83131c8;
 youtubePlayIconFg: COLOR_WHITE;
 videoPlayIconBg: #0000007f;
 videoPlayIconFg: COLOR_WHITE;
-toastBg: #000000b2;
-toastFg: COLOR_WHITE;
+toastBg: COLOR_GRAY;                         // When you hit a inline chat button as a like button a toast appears with reaction of your call
+toastFg: COLOR_WHITE;                           // Text color of that toast
 
 reportSpamBg: COLOR_LGRAY;
 reportSpamFg: COLOR_GRAY;
@@ -416,13 +416,13 @@ historyReplyIconFg: COLOR_BLUE;
 historyReplyCancelFg: COLOR_GGRAY;
 historyReplyCancelFgOver: COLOR_RED;
 
-historyComposeButtonBg: COLOR_LGRAY;                            // Mute button in historyCompose
+historyComposeButtonBg: COLOR_GRAY;                            // Mute button in historyCompose
 historyComposeButtonBgOver: COLOR_IRON;
 historyComposeButtonBgRipple: COLOR_APRICOT_ALPHA;
 
 // shared media type in profile settings thumbnail overlays with checkboxes
 overviewCheckBg: #00000040;
-overviewCheckFg: COLOR_LGRAY;
+overviewCheckFg: COLOR_WHITE;
 overviewCheckFgActive: COLOR_WHITE;
 overviewPhotoSelectOverlay: #00000077;
 profileStatusFgOver: COLOR_GGRAY;
@@ -437,7 +437,7 @@ notificationSampleUserpicFg: windowBgActive;
 notificationSampleCloseFg: COLOR_RED;
 notificationSampleTextFg: COLOR_GGRAY;
 notificationSampleNameFg: COLOR_DARK;
-notificationBg: COLOR_LGRAY;                     // Notification background
+notificationBg: COLOR_DARK;                     // Notification background
 
 mainMenuBg: COLOR_LGRAY;                         // Left menu background (lower part, not buttons)
 mainMenuCoverBg: COLOR_APRICOT;                 // Left menu background (upper part)
