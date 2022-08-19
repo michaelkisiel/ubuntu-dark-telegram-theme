@@ -12,4 +12,3 @@ But here's also an official Telegram Support guide on how to edit and install Te
 
 ### Screenshots
 ![](UbuntuDarkScreenshot.png)
-![](ubuntu-dark-telegram-theme.png)
